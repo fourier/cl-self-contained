@@ -1,4 +1,4 @@
-# Common Lisp Self-Contained Example
+# Common Lisp Self-Contained Project Example
 This repository is an example of self-contained CL project. It has a main system definition and 2 submodules, and the file `project.lisp` which could be used on a system without QuickLisp to quickly get the development going.
 The idea is to copy the `project.lisp` to the root folder of more complex projects to remove dependency on QuickLisp. Probably more features will be added to the project.
 
