@@ -1,20 +1,11 @@
-# Common Lisp Self-Contained Project Example
-This repository is an example of self-contained CL project. It has a main system definition and 2 submodules, and the file `project.lisp` which could be used on a system without QuickLisp to quickly get the development going.
-The idea is to copy the `project.lisp` to the root folder of more complex projects to remove dependency on QuickLisp. Probably more features will be added to the project.
+# Give Up GitHub
 
-## Usage
-- git clone the project somewhere.
-- Update submodules (no need for this project, but in yours you likely add submodules to the modules/ directory instead of the dummy modules I've added):
-```
-git submodule update --init --recursive
-```
-- Load/compile the file `project.lisp` from your CL compiler/IDE (I've tested on LispWorks for Linux and Windows and with SBCL on Linux) and call a function from it to verify that everything works.
-```
-(load "/home/myuser/Sources/lisp/cl-self-contained/project.lisp")
-```
+This project has given up GitHub.  ([See Software Freedom Conservancy's *Give Up  GitHub* site for details](https://GiveUpGitHub.org).)
 
-- Test that everything works:
+You can now find this project at [https://codeberg.org/fourier/cl-self-contained](https://codeberg.org/fourier/cl-self-contained) instead.
 
-```
-(self-contained:print-strings)
-```
+Any use of this project's code by GitHub Copilot, past or present, is done without our permission.  We do not consent to GitHub's use of this project's code in Copilot.
+
+Join us; you can [give up GitHub](https://GiveUpGitHub.org) too!
+
+![Logo of the GiveUpGitHub campaign](https://sfconservancy.org/img/GiveUpGitHub.png)
